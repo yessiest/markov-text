@@ -1,6 +1,6 @@
 # markov-text
 
-A (WIP) Lua text generator library using markov chains 
+A Lua text generator library using markov chains 
 
 ## Features
 
