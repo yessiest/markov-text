@@ -80,6 +80,14 @@ function markov.expand_vocabulary(self,source)
   self.net = register_words(source,self.net)
 end
 
+function markov.save_state(self)
+  return self.net
+end
+
+function markov.load_state(self,new_state)
+  self.net = new_state
+end
+
 function markov.run(self,start,count)
   if not self.init then
     error("Attempted to use an instance method on an uninitialized instance")
