@@ -76,7 +76,7 @@ end
 
 a = (markov.new([[]]))
 
-local b = "Стволовые"
+local b = ""
 local s = ""
 while b do
   s = s..(b.." ")
