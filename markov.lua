@@ -73,7 +73,7 @@ function markov.walk(self,start)
   return word
 end
 
-function markov.expand_vocabulary(source)
+function markov.expand_vocabulary(self,source)
   if not self.init then
     error("Attempted to use an instance method on an uninitialized instance")
   end
