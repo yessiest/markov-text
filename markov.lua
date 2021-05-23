@@ -18,8 +18,7 @@ end
 
 local function register_words(str,word_list)
    local word_list = word_list or {}
-   str:gsub("%S+",function(word)
-      print(word)
+   str:gsub("%S+",function(word) 
       if not word_list[word] then
          word_list[word] = {}
       end
