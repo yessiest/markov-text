@@ -4,7 +4,7 @@ A Lua text generator library using markov chains
 
 ## Features
 
-- State saving (TODO)
+- State saving
 - Chain expansion
 
 ## Usage
